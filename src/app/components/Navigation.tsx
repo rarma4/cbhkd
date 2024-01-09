@@ -11,7 +11,7 @@ export default function Navigation() {
         <div className="container">
           <a className="navbar-brand" href="/">
             <Image
-              src="../../assets/img/logo-cbhkd.webp"
+              src="/../assets/img/logo-cbhkd.webp"
               alt="logo rafart"
               width={95}
               height={95}
