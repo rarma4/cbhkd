@@ -3,6 +3,7 @@ import '../styles/components/navigation.scss'
 import Link from "next/link"
 import OffNavigation from '../components/OffNavigation'
 import MenuItens from '../components/MenuItens'
+import { marker } from '../utils/Fonts'
 
 export default function Navigation() {
   return (
@@ -17,7 +18,7 @@ export default function Navigation() {
               height={95}
             />
           </a>
-          <a className="navbar-brand logo-header" href="/">Hapkido</a>
+          <a className={`navbar-brand logo-header ${marker.className}`} href="/">Hapkido</a>
 
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
