@@ -1,5 +1,6 @@
 import '../styles/sections/footer.scss'
 import Link from 'next/link'
+import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faSquarePhone } from '@fortawesome/free-solid-svg-icons'
 // import {  } from '@fortawesome/free-regular-svg-icons'
@@ -8,31 +9,27 @@ import { faFacebookSquare, faSquareInstagram, faSquareGithub, faLinkedin, faSqua
 export default function Footer() {
   return (
     <>
-      <div className="container-fluid bg-primary text-white ">
+      <div className="container-fluid bg-primary text-light">
 
         <footer className="container">
           <div className="row p-3 text-center mt-auto d-flex justify-content-evenly ">
-            <div className="col-xl-3 col-md-4 col-xs-1 d-flex justify-content-evenly">
-              <Link href="https://github.com/rarma4" target="_blank">
-                <div className="icon" title="github">
-                  <FontAwesomeIcon icon={faSquareGithub} />
-                </div>
-              </Link>
-              <Link href="https://www.linkedin.com/in/rarma4/" target="_blank">
-                <div className="icon" title="linkedIn">
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </div>
-              </Link>
-              <Link href="https://api.whatsapp.com/send/?phone=5511999767629&text=Contato+pelo+site+Raf%27Art%3A&type=phone_number&app_absent=0" target="_blank">
-                <div className="icon" title="whatsApp">
-                  <FontAwesomeIcon icon={faSquareWhatsapp} />
-                </div>
-              </Link>
-              <Link href="callto:5511999767629" target="_blank">
-                <div className="icon" title="Celular">
-                  <FontAwesomeIcon icon={faSquarePhone} />
-                </div>
-              </Link>
+            <div className="col-xl-6 col-md-12 col-xs-1 d-flex justify-content-evenly">
+              <p><small>Copyright © CBHKD - Confederação Brasileira de Hapkido</small></p>
+            </div>
+            <div className="col-xl-6 col-md-12 col-xs-1 d-flex justify-content-evenly">
+              <p>
+                <small>
+                  Powered by 
+                </small>
+                <a className="p-2" href="https://www.rafart.com.br/" target="_blank" title="Raf'Art Developer and WebDesign">
+                  <Image
+                    src="/assets/img/rafart-logo.svg"
+                    alt="logo rafart"
+                    width={20}
+                    height={20}
+                  />
+                </a>
+              </p>
             </div>
           </div>
         </footer>

@@ -14,8 +14,8 @@ export default function Navigation() {
             <Image
               src="/assets/img/logo-cbhkd.webp"
               alt="logo rafart"
-              width={95}
-              height={95}
+              width={85}
+              height={85}
             />
           </a>
           <a className={`navbar-brand logo-header ${marker.className}`} href="/">Hapkido</a>
