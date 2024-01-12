@@ -6,6 +6,7 @@ import 'bootswatch/dist/flatly/bootstrap.min.css'
 // import 'bootswatch/dist/lux/bootstrap.min.css';
 import Navigation from './components/Navigation'
 import Footer from './sections/Footer'
+import Rodape from './sections/Rodape'
 
 export const metadata: Metadata = {
   title: `Confederação Brasileira de Hapkido`,
@@ -23,6 +24,7 @@ export default function RootLayout({
       {/* <body className="d-flex flex-column min-nh-100"> */}
         <Navigation />
         {children}
+        <Rodape />
         <Footer />
         <script src="../../assets/js/bootstrap.bundle.min.js" async></script>
       </body>

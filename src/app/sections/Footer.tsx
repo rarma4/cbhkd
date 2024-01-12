@@ -10,9 +10,8 @@ export default function Footer() {
   return (
     <>
       <div className="container-fluid bg-primary text-light">
-
         <footer className="container">
-          <div className="row p-3 text-center mt-auto d-flex justify-content-evenly ">
+          <div className="row pb-2 pt-4 text-center d-flex justify-content-evenly">
             <div className="col-xl-6 col-md-12 col-xs-1 d-flex justify-content-evenly">
               <p><small>Copyright © CBHKD - Confederação Brasileira de Hapkido</small></p>
             </div>
