@@ -13,7 +13,7 @@ export default function Navigation() {
           <a className="navbar-brand" href="/">
             <Image
               src="/assets/img/logo-cbhkd.webp"
-              alt="logo rafart"
+              alt="logo CBHKD"
               width={85}
               height={85}
             />

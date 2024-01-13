@@ -1,9 +1,9 @@
 import './styles/globals.scss'
 import type { Metadata } from 'next'
-import { inter } from './utils/Fonts'
+import { lato } from './utils/Fonts'
 // import 'bootswatch/dist/minty/bootstrap.min.css';
-import 'bootswatch/dist/flatly/bootstrap.min.css'
-// import 'bootswatch/dist/lux/bootstrap.min.css';
+// import 'bootswatch/dist/flatly/bootstrap.min.css'
+import 'bootswatch/dist/lux/bootstrap.min.css';
 import Navigation from './components/Navigation'
 import Footer from './sections/Footer'
 import Rodape from './sections/Rodape'
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`${inter.className}`}>
+      <body className={`${lato.className}`}>
       {/* <body className="d-flex flex-column min-nh-100"> */}
         <Navigation />
         {children}

@@ -1,11 +1,13 @@
-import { Salsa, Permanent_Marker, Inter, Roboto_Mono } from 'next/font/google'
+import { Salsa, Permanent_Marker, Inter, Lato } from 'next/font/google'
  
 export const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
 })
  
-export const roboto_mono = Roboto_Mono({
+export const lato = Lato({
+  weight: '400',
+  variable: '--font-lato',
   subsets: ['latin'],
   display: 'swap',
 })
