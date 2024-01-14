@@ -59,34 +59,44 @@ export const FormacaoAcademica = [
     }
   ]
 
-  export const ServicoS = [
+  export const GaleriaItenS = [
     {
-      "id": 1,
-      "altura": 80,
-      "largura": 120,
-      "src": "../../assets/img/design.svg",
-      "titulo": "Design",
-      "subtitulo": "",
-      "texto": "Criação e desenvolvimento de identidade visual e logomarca.",
+      "header": "Fotos",
+      "titulo": "Álbum de fotos",
+      "subtitulo": "dos atletas da Confederação Brasileira de HAPKIDO.",
+      "src": "/assets/img/bannerHkd03.webp",
+      "altimg":"bannerHkd03",
+      "altura": 380,
+      "largura": 380,
+      "txtbtn": "Veja",
+      "srcbtn": "#",
+      "footer": "Demostrações, campeonatos, seminários e recordações"
     },
     {
-      "id": 2,
-      "altura": 80,
-      "largura": 120,
-      "src": "../../assets/img/computer.svg",
-      "titulo": "Websites",
-      "subtitulo": "",
-      "texto": "Criação de sites modernos e responsivos (se adaptam ao tamanho da tela).",
+      "header": "Videos",
+      "titulo": "Vídeos dos atletas",
+      "subtitulo": "da Confederação Brasileira de HAPKIDO.",
+      "src": "/assets/img/bannerHkd02.webp",
+      "altimg":"bannerHkd02",
+      "altura": 380,
+      "largura": 380,
+      "txtbtn": "Assista",
+      "srcbtn": "#",
+      "footer": "Demostrações, campeonatos, seminários e recordações"
     },
     {
-      "id": 3,
-      "altura": 70,
-      "largura": 120,
-      "src": "../../assets/img/shop.svg",
-      "titulo": "E-Commerce",
-      "subtitulo": "",
-      "texto": "Venda na internet e se destaque com sua loja virtual",
-    }
+      "header": "Contato",
+      "titulo": "Entre em contato",
+      "subtitulo": "para uma visita em nossa academia.",
+      "src": "/assets/img/bannerHkd01.webp",
+      "altimg":"bannerHkd01",
+      "altura": 380,
+      "largura": 380,
+      "txtbtn": "Confira",
+      "srcbtn": "#",
+      "footer": "Entre em contato para fazer parte desta Família Marcial"
+    },
+
   ]
 
   export const habilidadeS = [

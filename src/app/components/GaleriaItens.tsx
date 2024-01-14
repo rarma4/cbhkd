@@ -3,11 +3,12 @@ import * as React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../styles/components/conhecimento.scss'
-import { ServicoS } from '../utils/Utils'
+import '../styles/components/galeriaItens.scss'
+import { GaleriaItenS } from '../utils/Utils'
 import Image from 'next/image'
+import Link from "next/link"
 
-export default function Conhecimento() {
+export default function GaleriaItens() {
   var settings = {
     dots: true,
     infinite: true,
@@ -68,28 +69,35 @@ export default function Conhecimento() {
     <>
       <Slider  {...settings}>
 
-        {ServicoS.map((item, index) => (
-          <div className="col-md-4 col-sm-6 p-3 text-center" key={index}>
+        {GaleriaItenS.map((item, index) => (
 
-            <div className="card">
-              <div className="card-body">
-                <div className="iconService w-100 d-flex justify-content-center" title="">
-                  <Image
+
+            <div className="col-md-4 col-sm-6 p-3 text-center" key={index}>
+              <div className="card mb-3">
+                <h3 className="card-header">{item.header}</h3>
+                <div className="card-body">
+                  <h5 className="card-title">{item.titulo}</h5>
+                  <h6 className="card-subtitle text-muted">{item.subtitulo}</h6>
+                </div>
+                <div className=" card-body w-100 d-flex justify-content-center" style={{ backgroundImage: "url('../../../../public/assets/img/home-bg-default.webp')!important", backgroundSize: "cover!important", backgroundPosition: "center center!important"}} >
+                  {/* <Image
                     src={item.src}
-                    alt={item.titulo}
+                    alt={item.altimg}
                     width={item.altura}
                     height={item.largura}
-                  />
+                  /> */}
                 </div>
-                <h4 className="card-title">{item.titulo}</h4>
-                {/* <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-                <p className="card-text">{item.texto}</p>
-                {/* <a href="#" className="card-link">Card link</a>
-                <a href="#" className="card-link">Another link</a> */}
+                <div className="card-body">
+                  {/* <p className="card-text">Demostrações, campeonatos, seminários e recordações</p> */}
+                  <Link className="btn btn-outline-warning smoothScroll tm-view-more-btn" href={item.srcbtn}>{item.txtbtn}</Link>
+                </div>
+                <div className="card-footer text-muted">
+                  {item.footer}
+                </div>
               </div>
             </div>
 
-          </div>
+          
         ))}
 
       </Slider>
