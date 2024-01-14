@@ -125,75 +125,32 @@ export const FormacaoAcademica = [
 
   export const skils = [
     {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/css3.svg",
-      "titulo": "css3",
+      "altura": 72,
+      "largura": 72,
+      "src": "/assets/img/hkd-chutes.webp",
+      "titulo": "Chutes",
+      "texto": "O Hapkido possui uma das mais vastas formas de chutes, com muita precisão, potência e controle."
     },
     {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/html5.svg",
-      "titulo": "html5",
+      "altura": 72,
+      "largura": 72,
+      "src": "/assets/img/hkd-quedas.webp",
+      "titulo": "Quedas",
+      "texto": "Aprenda a importância de saber cair corretamente sem lesões."
     },
     {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/js.svg",
-      "titulo": "javacript",
+      "altura": 72,
+      "largura": 72,
+      "src": "/assets/img/hkd-torcoes.webp",
+      "titulo": "Torções",
+      "texto": "A arte marcial com a mais variada forma de defesa pessoal, usada até pelo exército coreano."
     },
     {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/sass.svg",
-      "titulo": "sass",
+      "altura": 72,
+      "largura": 72,
+      "src": "/assets/img/hkd-projecoes.webp",
+      "titulo": "Projeções",
+      "texto": "Projeções precisas, para uma defesa pessoal rápida, dificultando o ataque de múltiplos oponentes."
     },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/wp.svg",
-      "titulo": "wordpress",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/react.svg",
-      "titulo": "react",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/next.svg",
-      "titulo": "next js",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/php.svg",
-      "titulo": "html5",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/html5.svg",
-      "titulo": "php",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/mysql.svg",
-      "titulo": "mysql",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/c-sharp.svg",
-      "titulo": "C#",
-    },
-    {
-      "altura": 30,
-      "largura": 35,
-      "src": "../../assets/img/logos/api.svg",
-      "titulo": "API",
-    },
+    
   ]
