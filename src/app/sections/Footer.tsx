@@ -9,7 +9,7 @@ import { faFacebookSquare, faSquareInstagram, faSquareGithub, faLinkedin, faSqua
 export default function Footer() {
   return (
     <>
-      <div className="container-fluid bg-primary text-light">
+      <div className="container-fluid bg-primary text-light" id="footer">
         <footer className="container">
           <div className="row pb-2 pt-4 text-center d-flex justify-content-evenly">
             <div className="col-xl-6 col-md-12 col-xs-1 d-flex justify-content-evenly">

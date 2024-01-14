@@ -16,7 +16,7 @@ export default function Treine() {
                 Venha fazer parte desta Família com mais de 40 anos de tradição.
               </p>
               <p className="home-title mt-3 text-white">
-                Rua da graça, 89, 4 andar Bom Retiro – São Paulo.
+                Rua da Graça, 89, 4 andar Bom Retiro – São Paulo.
               </p>
               <p className="home-title mt-3 text-white">
 
