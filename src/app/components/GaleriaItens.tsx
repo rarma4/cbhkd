@@ -73,26 +73,28 @@ export default function GaleriaItens() {
 
 
             <div className="col-md-4 col-sm-6 p-3 text-center" key={index}>
-              <div className="card mb-3">
-                <h3 className="card-header">{item.header}</h3>
+              <div className="card mb-3 bg-primary text-white">
+                <h3 className="card-header text-white">{item.header}</h3>
                 <div className="card-body">
-                  <h5 className="card-title">{item.titulo}</h5>
-                  <h6 className="card-subtitle text-muted">{item.subtitulo}</h6>
+                  <h5 className="card-title text-white">{item.titulo}</h5>
+                  <h6 className="card-subtitle text-white">{item.subtitulo}</h6>
                 </div>
                 <div className=" card-body w-100 d-flex justify-content-center" style={{ backgroundImage: "url('../../../../public/assets/img/home-bg-default.webp')!important", backgroundSize: "cover!important", backgroundPosition: "center center!important"}} >
-                  {/* <Image
+                  <Image
                     src={item.src}
                     alt={item.altimg}
                     width={item.altura}
                     height={item.largura}
-                  /> */}
+                    sizes="100vw"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                    }}
+                  />
                 </div>
-                <div className="card-body">
-                  {/* <p className="card-text">Demostrações, campeonatos, seminários e recordações</p> */}
+
+                <div className="card-footer text-white">
                   <Link className="btn btn-outline-warning smoothScroll tm-view-more-btn" href={item.srcbtn}>{item.txtbtn}</Link>
-                </div>
-                <div className="card-footer text-muted">
-                  {item.footer}
                 </div>
               </div>
             </div>
