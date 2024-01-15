@@ -12,18 +12,22 @@ export default function ManuItens(props: MenuProps) {
   return (
     <>
       <li className="nav-item" data-bs-dismiss={`${props.mobile}`}>
-        <a className={`nav-link ${btnActive === "home" && "active"}`} href="#" onClick={()=>setBtnActive("home")}>Home
+        {/* <a className={`nav-link ${btnActive === "home" && "active"}`} href="#" onClick={()=>setBtnActive("home")}>Home
           <span className="visually-hidden">(current)</span>
-        </a>
+        </a> */}
+         <Link className={`nav-link ${btnActive === "home" && "active"}`} onClick={()=>setBtnActive("home")} href="/">Home</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "conhecimentos" && "active"}`} onClick={()=>setBtnActive("conhecimentos")} href="/#conhecimentos">Conhecimentos</Link>
+        <Link className={`nav-link ${btnActive === "sobre" && "active"}`} onClick={()=>setBtnActive("sobre")} href="/sobre">Sobre</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "sobre" && "active"}`} onClick={()=>setBtnActive("sobre")} href="/#sobre">Sobre</Link>
+        <Link className={`nav-link ${btnActive === "graduacao" && "active"}`} onClick={()=>setBtnActive("graduacao")} href="/#sobre">Graduação</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "experiencia" && "active"}`} onClick={()=>setBtnActive("experiencia")} href="/#experiencia">Experiência</Link>
+        <Link className={`nav-link ${btnActive === "galeria" && "active"}`} onClick={()=>setBtnActive("galeria")} href="/#experiencia">Galeria</Link>
+      </li>
+      <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
+        <Link className={`nav-link ${btnActive === "contato" && "active"}`} onClick={()=>setBtnActive("contato")} href="/#experiencia">Contato</Link>
       </li>
     </>
   )
