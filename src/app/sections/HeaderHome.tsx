@@ -6,7 +6,7 @@ import { marker } from '../utils/Fonts'
 export default function HeaderHome() {
   return (
     <>
-      <div className="container-fluid bg-primary text-white d-flex justify-content-evenly flex-column" id="header">
+      <div className="container-fluid bg-primary text-white d-flex justify-content-evenly flex-column" id="headerHome">
         <header className="container">
           <div className="row p-3 text-center ">
 

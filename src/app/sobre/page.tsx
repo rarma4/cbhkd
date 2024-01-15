@@ -1,14 +1,14 @@
 import '../styles/pages/page.scss'
-import HeaderHome from '../sections/HeaderHome'
+import HeaderSobre from '../sections/HeaderSobre'
 import Galeria from '../sections/Galeria'
-import Skills from '../sections/Skils'
+import QuemPodeTreinar from '../sections/QuemPodeTreinar'
 import Treine from '../sections/Treine'
 
 export default function Sobre() {
   return (
     <>
-      <HeaderHome/>
-      <Skills/>
+      <HeaderSobre/>
+      <QuemPodeTreinar/>
       <Treine/>
       <Galeria/>
     </>
