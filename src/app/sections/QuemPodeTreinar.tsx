@@ -21,6 +21,11 @@ export default function QuemPodeTreinar() {
                 alt="logo rafart"
                 width={451}
                 height={254}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
               />
             </div>
 

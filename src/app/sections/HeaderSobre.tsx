@@ -12,7 +12,7 @@ export default function HeaderSobre() {
 
             <div className="col-md-12 col-sm-1 mt-5">
               <h2 className="home-title text-white">SOBRE O </h2>
-              <h1 className={`home-subtitle text-warning mt-3 ${marker.className}`}>HapKiDo?</h1>
+              <h1 className={`home-subtitle text-warning mt-3 ${marker.className}`}>HapKiDo</h1>
               {/* <h4 className="home-title mt-3 text-white">A lenda viva das artes marciais!</h4> */}
             </div>
           </div>
