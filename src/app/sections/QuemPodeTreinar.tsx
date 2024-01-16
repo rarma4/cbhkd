@@ -14,7 +14,7 @@ export default function QuemPodeTreinar() {
       <div className="container">
         <div className="row mt-5 mb-4">
           <h2 className={`text-center text-warning ${marker.className}`}>Quem pode treinar o Hapkido?</h2>
-          <div className="col-12 col-sm-6 col-lg-6 p-3 text-center">
+          <div className="col-12 col-sm-12 col-lg-6 p-3 text-center">
             <div className=" w-100 d-flex justify-content-center" >
               <Image
                 src="/assets/img/home-bg-w.webp"
@@ -31,7 +31,7 @@ export default function QuemPodeTreinar() {
 
           </div>
 
-          <div className="col-12 col-sm-6 col-lg-6 p-3">
+          <div className="col-12 col-lg-6 p-3 d-flex">
 
             <div className="accordion" id="accordionExample">
               <div className="accordion-item">
