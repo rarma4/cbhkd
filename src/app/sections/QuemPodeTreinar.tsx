@@ -31,7 +31,7 @@ export default function QuemPodeTreinar() {
 
           </div>
 
-          <div className="col-12 col-lg-6 p-3 d-flex">
+          <div className="col-12 col-lg-6 p-3">
 
             <div className="accordion" id="accordionTreine">
               <div className="accordion-item">
