@@ -7,21 +7,21 @@ import { marker } from '../utils/Fonts'
 export default function Historia() {
 
   return (
-    <div className="container-fluid d-flex bg-dark text-white justify-content-evenly" id="historia">
+    <div className="container-fluid d-flex bg-body-tertiary justify-content-evenly" id="historia">
       <div className="container">
         <div className="row mt-5 mb-4">
           <h2 className={`text-center text-warning ${marker.className}`}>A história do Hapkido</h2>
 
           <div className="col-12 col-lg-12 p-3 d-flex flex-column flex-nowrap">
 
-            <ul className="nav nav-tabs" role="tablist">
-              <li className="nav-item" role="presentation">
+            <ul className="nav nav-tabs bg-body-tertiary" role="tablist">
+              <li className="nav-item bg-body-tertiary" role="presentation">
                 <a className="nav-link text-secondary-emphasis active" data-bs-toggle="tab" href="#mundo" aria-selected="true" role="tab">Mundo</a>
               </li>
-              <li className="nav-item" role="presentation">
+              <li className="nav-item bg-body-tertiary" role="presentation">
                 <a className="nav-link text-secondary-emphasis" data-bs-toggle="tab" href="#brasil" aria-selected="false" role="tab">Brasil</a>
               </li>
-              <li className="nav-item" role="presentation">
+              <li className="nav-item bg-body-tertiary" role="presentation">
                 <a className="nav-link text-secondary-emphasis" data-bs-toggle="tab" href="#kwan" aria-selected="false" role="tab">Kwan</a>
               </li>
             </ul>
