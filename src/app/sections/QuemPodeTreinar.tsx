@@ -33,14 +33,14 @@ export default function QuemPodeTreinar() {
 
           <div className="col-12 col-lg-6 p-3 d-flex">
 
-            <div className="accordion" id="accordionExample">
+            <div className="accordion" id="accordionTreine">
               <div className="accordion-item">
                 <h2 className="accordion-header" id="headingOne">
                   <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Hapkido para as mulheres
                   </button>
                 </h2>
-                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionTreine">
                   <div className="accordion-body">
                     <p>Não é necessário força física para a aplicação das técnicas do Hapkido, o que torna a arte marcial ideal para o sexo feminino.</p>
                     <p>Um estudo profundo aliado ao treino constante desta singular arte marcial, pelas mulheres, confere uma grande variedade de técnicas lógicas, muito úteis, que podem ser utilizadas em diversas situações.</p>
@@ -53,7 +53,7 @@ export default function QuemPodeTreinar() {
                     Hapkido para todos
                   </button>
                 </h2>
-                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionTreine">
                   <div className="accordion-body">
                     <p>Dos 6 anos, tanto os homens quanto as mulheres, podem treinar o Hapkido pois sua forma circular de movimentação, adapta-se a qualquer tipo de corpo , sem que seja necessário anos treinando alongamentos ou exercícios físicos para ganhar força.</p>
                     <p>O poder de adaptação do Hapkido unido com os movimentos circulares em perfeita harmonia, fará com que o praticante aproveite totalmente a força do seu oponente contra ele mesmo, sem que ele tenha chance de reação.</p>
