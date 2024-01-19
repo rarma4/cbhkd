@@ -3,6 +3,7 @@ import HeaderSobre from '../sections/HeaderSobre'
 import QuemPodeTreinar from '../sections/QuemPodeTreinar'
 import Historia from '../sections/Historia'
 import Regras from '../sections/Regras'
+import Estudo from '../sections/Estudo'
 
 export default function Sobre() {
   return (
@@ -11,6 +12,7 @@ export default function Sobre() {
       <QuemPodeTreinar/>
       <Historia/>
       <Regras/>
+      <Estudo/>
     </>
   )
 }

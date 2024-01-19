@@ -4,27 +4,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image'
 import { skils } from '../utils/Utils'
-import '../styles/sections/regras.scss'
+import '../styles/sections/estudo.scss'
 import { marker } from '../utils/Fonts'
 
-export default function Regras() {
+export default function Estudo() {
 
   return (
-    <div className="container-fluid d-flex justify-content-evenly" id="regras">
+    <div className="container-fluid d-flex bg-body-tertiary justify-content-evenly" id="estudo">
       <div className="container">
         <div className="row mt-5 mb-4">
-          <h2 className={`text-center text-warning ${marker.className}`}>As regras do Hapkido</h2>
-          <h6 className={`text-center text-secondary `}>As regras e etiqueta do Hapkido são fundamentadas na tradição da arte</h6>
-          <h6 className={`text-center text-secondary `}>devem ser respeitadas, usadas e passadas a todos os Hapkidoístas.</h6>
+          <h2 className={`text-center text-warning ${marker.className}`}>Estudo Complementar do Hapkido</h2>
+          <h6 className={`text-center text-secondary `}>Este estudo tem a finalidade de ajudar os alunos a se familiarizar</h6>
+          <h6 className={`text-center text-secondary `}>com as linguagens usadas no Dodjang e a origem do Hapkido.</h6>
 
           <div className="col-12 col-lg-12 p-3 d-flex flex-column flex-nowrap">
 
             <ul className="nav nav-tabs bg-body-tertiary" role="tablist">
               <li className="nav-item" role="presentation">
-                <a className="nav-link active" data-bs-toggle="tab" href="#juramento" aria-selected="true" role="tab">Juramento</a>
+                <a className="nav-link active" data-bs-toggle="tab" href="#hkd" aria-selected="true" role="tab">O que é o Hapkido?</a>
               </li>
               <li className="nav-item" role="presentation">
-                <a className="nav-link" data-bs-toggle="tab" href="#treino" aria-selected="false" role="tab">Treino</a>
+                <a className="nav-link" data-bs-toggle="tab" href="#contagem" aria-selected="false" role="tab">Contagem</a>
               </li>
               <li className="nav-item" role="presentation">
                 <a className="nav-link" data-bs-toggle="tab" href="#etiquetas" aria-selected="false" role="tab">Etiquetas</a>
@@ -35,31 +35,85 @@ export default function Regras() {
             </ul>
 
             <div id="myTabContent" className="tab-content">
-              <div className="tab-pane fade show active" id="juramento" role="tabpanel">
-                <p>1º Observar as regras do Hapkido.</p>
-                <p>2º Respeitar o instrutor e meus superiores.</p>
-                <p>3º Nunca fazer mau uso do Hapkido.</p>
-                <p>4º Construir um mundo mais pacífico.</p>
-                <p>5º Ser campeão da liberdade e da justiça.</p>
+              <div className="tab-pane fade show active" id="hkd" role="tabpanel">
+                <p>Hap Ki Do - HAP=União, KI=Força, Espírito, DO=Caminho; Caminho da União da Força e do Espírito, Arte Marcial Sul-Coreana.</p>
+                <p>BUM MOO: Família Tigre, Federação Fundada em 1968 pelo Grão Mestre Yun Sik Kim.</p>
+                <p>Grão Mestre Yun Sik Kim, Faixa Preta Internacional, 10º DAN de Hap Ki Do, 9º DAN de Tae Kwon Do; Juiz Presidente Internacional.</p>
               </div>
-              <div className="tab-pane fade" id="treino" role="tabpanel">
-                <ol>
-                  <li>Só os mestres de 4° dan acima e os faixas pretas de 2° e 3° dan, com a devida autorização do Grão mestre, é quem pode ministrar aulas de Hapkido.</li>
-                  <li>Mantenha a sua higiene pessoal em dia, assim como as unhas dos pés e das mãos sempre limpas e curtas.</li>
-                  <li>Manter o dobok sempre limpo e asseado.</li>
-                  <li>Alimente – se sempre duas horas antes do treino, para não ter problemas de indigestão.</li>
-                  <li>O praticante de Hapkido deve estar sempre atento durante as aulas, para evitar riscos de acidentes desnecessários.</li>
-                  <li>Retire anéis, brincos, pulseiras, relógio, correntes e qualquer outro objeto, que possa causar riscos acidentais, para você e para seus companheiros.</li>
-                  <li>As conversas durante as aulas devem ser mínimas e restritas a um único tópico, Hapkido.</li>
-                  <li>Em caso de dúvidas consulte sempre o instrutor, nunca um aluno mais graduado.</li>
-                  <li>Exceto os alunos que trabalham na área da saúde ou militares todos os outros alunos devem manter os celulares desligados.</li>
-                  <li>Caso esteja esperando uma ligação urgente, deixe o telefone da academia para contato.</li>
-                  <li>Chegar cinco minutos antes das aulas.</li>
-                  <li>Se chegar atrasado, reverencie a bandeira e depois o instrutor, que lhe dirá o que fazer, nunca cumprimente os companheiros durante o horário de aula, para não provocar tumultos e prejudicar o andamento das aulas.</li>
-                  <li>Se precisar sair mais cedo durante o horário de aula, comunique antecipadamente o instrutor para ter a sua permissão.</li>
-                  <li>Ao entrar e sair do dojang, sempre reverencie o instrutor e as bandeiras, principalmente na presença dos Grãos mestres, este é um gesto de respeito para com aqueles que nos ensinam.</li>
-                  <li>O aluno de Hapkido deve – se comportar da mesma forma dentro e fora do dojang.</li>
-                </ol>
+              <div className="tab-pane fade" id="contagem" role="tabpanel">
+                
+                <table className="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">Column heading</th>
+                      <th scope="col">Column heading</th>
+                      <th scope="col">Column heading</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="table-active">
+                      <th scope="row">1</th>
+                      <td>Raná</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Dul</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr className="table-active">
+                      <th scope="row">3</th>
+                      <td>Sêt</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Nêt</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr className="table-active">
+                      <th scope="row">5</th>
+                      <td>Dassôt</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Iossôt</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr className="table-active">
+                      <th scope="row">7</th>
+                      <td>Ilgôp</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Iodol</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr className="table-active">
+                      <th scope="row">9</th>
+                      <td>Arrôp</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Iol</td>
+                      <td>Column content</td>
+                      <td>Column content</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div className="tab-pane fade" id="etiquetas" role="tabpanel">
                 <ol>
@@ -87,15 +141,15 @@ export default function Regras() {
                   <li>Não fique com brincadeiras durante o período de aulas.</li>
                   <li>Não use as técnicas do Hapkido para prejudicar outras pessoas, ou como uma maneira de aumentar o seu ego pessoal.</li>
                   <li> Não falte com respeito para com seus instrutores, companheiros de treino e para com o Hapkido.<br></br>
-                  ‘Respeite os outros e a si mesmo, para poder ser respeitado”.</li>
-              </ol>
+                    ‘Respeite os outros e a si mesmo, para poder ser respeitado”.</li>
+                </ol>
+              </div>
             </div>
+
           </div>
 
         </div>
-
       </div>
-    </div>
     </div >
   );
 }
