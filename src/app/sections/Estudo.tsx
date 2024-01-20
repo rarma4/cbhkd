@@ -41,79 +41,79 @@ export default function Estudo() {
                 <p>Grão Mestre Yun Sik Kim, Faixa Preta Internacional, 10º DAN de Hap Ki Do, 9º DAN de Tae Kwon Do; Juiz Presidente Internacional.</p>
               </div>
               <div className="tab-pane fade" id="contagem" role="tabpanel">
-              <div class="table-responsive">
-                <table className="table table-hover">
-                  <thead>
-                    <tr>
-                      <th scope="col">Type</th>
-                      <th scope="col">Column heading</th>
-                      <th scope="col">Column heading</th>
-                      <th scope="col">Column heading</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="table-active">
-                      <th scope="row">1</th>
-                      <td>Raná</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Dul</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr className="table-active">
-                      <th scope="row">3</th>
-                      <td>Sêt</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Nêt</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr className="table-active">
-                      <th scope="row">5</th>
-                      <td>Dassôt</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">6</th>
-                      <td>Iossôt</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr className="table-active">
-                      <th scope="row">7</th>
-                      <td>Ilgôp</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">8</th>
-                      <td>Iodol</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr className="table-active">
-                      <th scope="row">9</th>
-                      <td>Arrôp</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10</th>
-                      <td>Iol</td>
-                      <td>Column content</td>
-                      <td>Column content</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="table-responsive">
+                  <table className="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Type</th>
+                        <th scope="col">Column heading</th>
+                        <th scope="col">Column heading</th>
+                        <th scope="col">Column heading</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="table-active">
+                        <th scope="row">1</th>
+                        <td>Raná</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dul</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr className="table-active">
+                        <th scope="row">3</th>
+                        <td>Sêt</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Nêt</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr className="table-active">
+                        <th scope="row">5</th>
+                        <td>Dassôt</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Iossôt</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr className="table-active">
+                        <th scope="row">7</th>
+                        <td>Ilgôp</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Iodol</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr className="table-active">
+                        <th scope="row">9</th>
+                        <td>Arrôp</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Iol</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
               <div className="tab-pane fade" id="etiquetas" role="tabpanel">
