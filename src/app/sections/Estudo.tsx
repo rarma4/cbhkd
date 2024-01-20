@@ -41,7 +41,7 @@ export default function Estudo() {
                 <p>Grão Mestre Yun Sik Kim, Faixa Preta Internacional, 10º DAN de Hap Ki Do, 9º DAN de Tae Kwon Do; Juiz Presidente Internacional.</p>
               </div>
               <div className="tab-pane fade" id="contagem" role="tabpanel">
-                
+              <div class="table-responsive">
                 <table className="table table-hover">
                   <thead>
                     <tr>
@@ -114,6 +114,7 @@ export default function Estudo() {
                     </tr>
                   </tbody>
                 </table>
+                </div>
               </div>
               <div className="tab-pane fade" id="etiquetas" role="tabpanel">
                 <ol>
