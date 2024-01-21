@@ -45,72 +45,175 @@ export default function Estudo() {
                   <table className="table table-hover">
                     <thead>
                       <tr>
-                        <th scope="col">Type</th>
-                        <th scope="col">Column heading</th>
-                        <th scope="col">Column heading</th>
-                        <th scope="col">Column heading</th>
+                        <th scope="col">1</th>
+                        <th scope="col">Raná</th>
+                        <th scope="col"></th>
+                        <th scope="col">11</th>
+                        <th scope="col">Iol raná</th>
+                        <th scope="col"></th>
+                        <th scope="col">1º</th>
+                        <th scope="col">Il</th>
+                        <th scope="col"></th>
+                        <th scope="col">11º</th>
+                        <th scope="col">Sip il</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="table-active">
+                      {/* <tr className="table-active">
                         <th scope="row">1</th>
                         <td>Raná</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                      </tr>
+                        <td></td>
+                        <td>11</td>
+                        <td>Iol raná</td>
+                        <td></td>
+                        <td>1º</td>
+                        <td>Il</td>
+                        <td></td>
+                        <td>11º</td>
+                        <td>Sip il</td>
+                      </tr> */}
                       <tr>
                         <th scope="row">2</th>
                         <td>Dul</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>12</td>
+                        <td>Iol dul</td>
+                        <td></td>
+                        <td>2º</td>
+                        <td>I</td>
+                        <td></td>
+                        <td>20º</td>
+                        <td>Ee sip</td>
                       </tr>
                       <tr className="table-active">
                         <th scope="row">3</th>
                         <td>Sêt</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>13</td>
+                        <td>Iol sêt</td>
+                        <td></td>
+                        <td>3º</td>
+                        <td>Sam</td>
+                        <td></td>
+                        <td>21º</td>
+                        <td>Ee sip il</td>
                       </tr>
                       <tr>
                         <th scope="row">4</th>
                         <td>Nêt</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>20</td>
+                        <td>Sumul</td>
+                        <td></td>
+                        <td>4º</td>
+                        <td>Sa</td>
+                        <td></td>
+                        <td>30º</td>
+                        <td>Sam sip</td>
                       </tr>
                       <tr className="table-active">
                         <th scope="row">5</th>
                         <td>Dassôt</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>21</td>
+                        <td>Sumul raná</td>
+                        <td></td>
+                        <td>5º</td>
+                        <td>Oh</td>
+                        <td></td>
+                        <td>40º</td>
+                        <td>sa sip</td>
                       </tr>
                       <tr>
                         <th scope="row">6</th>
                         <td>Iossôt</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>22</td>
+                        <td>Sumul dul</td>
+                        <td></td>
+                        <td>6º</td>
+                        <td>Yuk</td>
+                        <td></td>
+                        <td>50º</td>
+                        <td>oh sip</td>
                       </tr>
                       <tr className="table-active">
                         <th scope="row">7</th>
                         <td>Ilgôp</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>30</td>
+                        <td>Sórum</td>
+                        <td></td>
+                        <td>7º</td>
+                        <td>Tchil</td>
+                        <td></td>
+                        <td>60º</td>
+                        <td>yuk sip</td>
                       </tr>
                       <tr>
                         <th scope="row">8</th>
                         <td>Iodol</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>40</td>
+                        <td>Marhun</td>
+                        <td></td>
+                        <td>8º</td>
+                        <td>Pal</td>
+                        <td></td>
+                        <td>70º</td>
+                        <td>tchil sip</td>
                       </tr>
                       <tr className="table-active">
                         <th scope="row">9</th>
                         <td>Arrôp</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td>50</td>
+                        <td>Shirum</td>
+                        <td></td>
+                        <td>9º</td>
+                        <td>Kou</td>
+                        <td></td>
+                        <td>80º</td>
+                        <td>pal sip</td>
                       </tr>
                       <tr>
                         <th scope="row">10</th>
                         <td>Iol</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>10º</td>
+                        <td>Chib</td>
+                        <td></td>
+                        <td>90º</td>
+                        <td>koo sip</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>100º</td>
+                        <td>Bek</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1000º</td>
+                        <td>Tchon</td>
                       </tr>
                     </tbody>
                   </table>
