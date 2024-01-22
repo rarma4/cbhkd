@@ -4,6 +4,7 @@ import QuemPodeTreinar from '../sections/QuemPodeTreinar'
 import Historia from '../sections/Historia'
 import Regras from '../sections/Regras'
 import Estudo from '../sections/Estudo'
+import BannerInferior from '../sections/BannerInferior'
 
 export default function Sobre() {
   return (
@@ -13,6 +14,7 @@ export default function Sobre() {
       <Historia/>
       <Regras/>
       <Estudo/>
+      <BannerInferior/>
     </>
   )
 }
