@@ -1,0 +1,18 @@
+#mestres
+ {
+    .tab-pane{
+        padding: 5px;
+    }
+
+    @media (max-width: 1024px) {
+        .nav {
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: -0.5rem;
+            padding:5px
+        }
+        .tab-pane{
+            padding: 5px;
+        }
+    }
+
+}

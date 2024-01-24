@@ -21,13 +21,13 @@ export default function ManuItens(props: MenuProps) {
         <Link className={`nav-link ${btnActive === "sobre" && "active"}`} onClick={()=>setBtnActive("sobre")} href="/sobre">Sobre</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "graduacao" && "active"}`} onClick={()=>setBtnActive("graduacao")} href="/#sobre">Graduação</Link>
+        <Link className={`nav-link ${btnActive === "graduacao" && "active"}`} onClick={()=>setBtnActive("graduacao")} href="/graduacao">Graduação</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "galeria" && "active"}`} onClick={()=>setBtnActive("galeria")} href="/#experiencia">Galeria</Link>
+        <Link className={`nav-link ${btnActive === "galeria" && "active"}`} onClick={()=>setBtnActive("galeria")} href="/galeria">Galeria</Link>
       </li>
       <li className="nav-item"  data-bs-dismiss={`${props.mobile}`}>
-        <Link className={`nav-link ${btnActive === "contato" && "active"}`} onClick={()=>setBtnActive("contato")} href="/#experiencia">Contato</Link>
+        <Link className={`nav-link ${btnActive === "contato" && "active"}`} onClick={()=>setBtnActive("contato")} href="/contato">Contato</Link>
       </li>
     </>
   )
