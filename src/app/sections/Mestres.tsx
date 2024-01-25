@@ -7,6 +7,7 @@ import Kim from '../components/Kim';
 import Choi from '../components/Choi';
 import Jae from '../components/Jae';
 import MestresHkd from '../components/MestresHkd';
+import FaixasPretas from '../components/FaixasPretas';
 
 export default function Mestres() {
 
@@ -44,8 +45,7 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
               </div>
 
               <div className="tab-pane fade" id="faixasPretas" role="tabpanel">
-                <p>Família de escolas ou academias de artes marciais</p>
-                <p>Entre as décadas de 50 e 60, após a separação da Coréia, a Coréia do Sul passou por uma grande e rigorosa reformulação, saía do regime (Imperial – Comunista), para o regime (capitalista), esta grande reformulação só foi possível devido a forte união do povo Coreano.</p>
+                <FaixasPretas/>
                 
               </div>
             </div>
