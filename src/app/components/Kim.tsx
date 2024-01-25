@@ -16,7 +16,7 @@ export default function Kim() {
                     <div className=" w-100 d-flex justify-content-center" >
                         {/* <Image
                             src="/assets/img/b-3.webp"
-                            alt="logo rafart"
+                            alt="Foto Mestre Kim"
                             width={220}
                             height={341}
                             sizes="100vw"
@@ -27,7 +27,7 @@ export default function Kim() {
                         /> */}
                         <Image
                             src="/assets/img/b-3.webp"
-                            alt="logo rafart"
+                            alt="Foto Mestre Kim"
                             width={312}
                             height={487}
                         />

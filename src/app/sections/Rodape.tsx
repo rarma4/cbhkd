@@ -37,7 +37,7 @@ export default function Rodape() {
               <div className=" w-100 d-flex justify-content-lg-start justify-content-center" >
                 <Image
                   src="/assets/img/logo-bummoo.webp"
-                  alt="logo rafart"
+                  alt="logo Bum Moo Hapkido"
                   width={100}
                   height={100}
                 />

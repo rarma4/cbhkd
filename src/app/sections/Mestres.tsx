@@ -4,6 +4,7 @@ import Image from 'next/image'
 import '../styles/sections/mestres.scss'
 import { marker } from '../utils/Fonts'
 import Kim from '../components/Kim';
+import Choi from '../components/Choi';
 
 export default function Mestres() {
 
@@ -32,6 +33,7 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
             <div id="myTabContent" className="tab-content">
               <div className="tab-pane fade show active" id="graoMestres" role="tabpanel">
                 <Kim/>
+                <Choi/>
               </div>
 
               <div className="tab-pane fade" id="mestres" role="tabpanel">

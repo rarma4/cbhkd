@@ -19,7 +19,7 @@ export default function HeaderHome() {
             <div className="col-md-6 col-sm-1">
             <Image
                     src="/assets/img/YunSikKim.webp"
-                    alt="logo rafart"
+                    alt="Foto grão mestre Yun Sik Kim"
                     width={160}
                     height={362}
                   />

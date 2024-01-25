@@ -18,14 +18,14 @@ export default function BannerInferior() {
                 <h2 className="home-title">Hapkido</h2>
                 <Image
                   src="/assets/img/logo-cbhkd.webp"
-                  alt="logo rafart"
+                  alt="logo CBHKD"
                   width={100}
                   height={100}
                   className="mt-4"
                 />
                 <Image
                   src="/assets/img/hkd-korea.webp"
-                  alt="logo rafart"
+                  alt="logo Bummoo Hapkido"
                   width={256}
                   height={61}
                   className="mt-5"

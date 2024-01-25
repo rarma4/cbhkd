@@ -18,7 +18,7 @@ export default function QuemPodeTreinar() {
             <div className=" w-100 d-flex justify-content-center" >
               <Image
                 src="/assets/img/home-bg-w.webp"
-                alt="logo rafart"
+                alt="Backgroung hapkido"
                 width={451}
                 height={254}
                 sizes="100vw"
