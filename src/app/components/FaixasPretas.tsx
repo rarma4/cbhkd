@@ -26,7 +26,7 @@ export default function FaixasPretas() {
                             <div id="collapse_1" className="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#accordionFaixasPretas">
                                 <div className="accordion-body mb-5">
                                     {SamDan.map((item, index) => (
-                                        <p id={`${index}`}> {item}</p>
+                                        <p key={index}> {item}</p>
                                     ))}
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ export default function FaixasPretas() {
                             <div id="collapse_2" className="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordionFaixasPretas">
                                 <div className="accordion-body">
                                     {IDan.map((item, index) => (
-                                        <p id={`${index}`}> {item}</p>
+                                        <p key={index}> {item}</p>
                                     ))}
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ export default function FaixasPretas() {
                             <div id="collapse_3" className="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordionFaixasPretas">
                                 <div className="accordion-body">
                                     {IlDan.map((item, index) => (
-                                        <p id={`${index}`}> {item}</p>
+                                        <p key={index}> {item}</p>
                                     ))}
                                 </div>
                             </div>

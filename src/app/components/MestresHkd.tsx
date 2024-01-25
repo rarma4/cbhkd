@@ -38,7 +38,7 @@ export default function MestresHkd() {
                             <div id="collapse_2" className="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordionMestreHkd">
                                 <div className="accordion-body">
                                     {ODan.map((item, index) => (
-                                        <p id={`${index}`}> {item}</p>
+                                        <p key={index}> {item}</p>
                                     ))}
 
                                 </div>
@@ -53,7 +53,7 @@ export default function MestresHkd() {
                             <div id="collapse_3" className="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordionMestreHkd">
                                 <div className="accordion-body">
                                     {SaDan.map((item, index) => (
-                                        <p id={`${index}`}> {item}</p>
+                                        <p key={index}> {item}</p>
                                     ))}
 
                                 </div>
