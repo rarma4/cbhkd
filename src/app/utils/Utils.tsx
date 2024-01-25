@@ -69,3 +69,46 @@ export const skils = [
   },
   
 ]
+
+export const MestresItenS = [
+  {
+    "graduacao01": "Faixa Preta Internacional de Hapkido 6° DAN",
+    "graduacao02": "Faixa Preta Internacional de Taekwondo 6° DAN",
+    "nome": "SHIN IL KIM",
+    "src": "/assets/img/mestreShin.webp",
+    "altimg":"mestre SHIN IL KIM",
+    "altura": 100,
+    "largura": 100,
+    "federacao": "Federação do estado de São Paulo de Hapkido"
+  },
+  {
+    "graduacao01": "Faixa Preta Internacional de Hapkido 6° DAN",
+    "graduacao02": "_",
+    "nome": "LUIZ CLAUDIO XAVIER DE FREITAS",
+    "src": "/assets/img/mestreXavier.webp",
+    "altimg":"mestre LUIZ CLAUDIO XAVIER DE FREITAS",
+    "altura": 100,
+    "largura": 100,
+    "federacao": "Federação Baiana de Hapkido"
+  },
+  {
+    "graduacao01": "Faixa Preta Internacional de Hapkido 6° DAN",
+    "graduacao02": "_",
+    "nome": "LUIZ CLAUDIO XAVIER DE FREITAS",
+    "src": "/assets/img/mestreXavier.webp",
+    "altimg":"mestre LUIZ CLAUDIO XAVIER DE FREITAS",
+    "altura": 100,
+    "largura": 100,
+    "federacao": "Federação Baiana de Hapkido"
+  },
+  {
+    "graduacao01": "Faixa Preta Internacional de Hapkido 6° DAN",
+    "graduacao02": "_",
+    "nome": "LUIZ CLAUDIO XAVIER DE FREITAS",
+    "src": "/assets/img/mestreXavier.webp",
+    "altimg":"mestre LUIZ CLAUDIO XAVIER DE FREITAS",
+    "altura": 100,
+    "largura": 100,
+    "federacao": "Federação Baiana de Hapkido"
+  },
+]

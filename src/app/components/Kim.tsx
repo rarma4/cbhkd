@@ -8,8 +8,6 @@ import { marker } from '../utils/Fonts'
 export default function Kim() {
     return (
         <>
-
-
             <div className="row mt-5 mb-4">
                 <h3 className={`text-center text-danger ${marker.className}`}>Grão Mestre Yun Sik Kim</h3>
                 <div className="col-12 col-sm-12 col-lg-3 p-3 text-center">
@@ -67,17 +65,17 @@ export default function Kim() {
                                     <strong>1943</strong><p>Nasceu a 5 de junho, em seoul, capital da Coréia do Sul.</p>
                                     <strong>1954</strong><p>Começa a treinar Taekwondo e Hapkido.</p>
                                     <strong>1957</strong>
-                                    <p>                                       <ul>
+                                    <div>                                       <ul>
                                             <li>Recebeu o diploma de faixa preta 1º dan de Hapkido do mestre “YOUNG SOOL CHOI”.</li>
                                             <li>Recebe o diploma de faixa preta 1“ dan de Taekwondo do mestre “HWANG KI”</li>
                                         </ul>
-                                    </p>
+                                    </div>
                                     <strong>1968</strong>
-                                    <p>                                       <ul>
+                                    <div>                                       <ul>
                                             <li>Inalgura a 1 º academia na Coréia com o nome de ”TCHON YOUNG”, que ensinava Taekwndo e Hapkido junto.</li>
                                             <li>funda a “Bum moo kwan Hapkido”. E obtém a presidência.</li>
                                         </ul>
-                                    </p>
+                                    </div>
                                     <strong>1972</strong><p>Recebeu o diploma como melhor técnica em demonstração, no 1º encontro das artes marciais, promovido pela rede de televisão “MBC – Seoul, Coréia”.</p>
                                     <strong>1974</strong><p>Recebeu o diploma como melhor técnica em demonstração, no 2º encontro das artes marciais, promovido pela rede de televisão “MBC – Seoul, Coréia”.</p>
                                     <strong>1977</strong><p>Chega no Brasil, sendo, faixa preta em Taekwondo 7º dan e Hapkido 8º dan.</p>
@@ -88,22 +86,22 @@ export default function Kim() {
                                     <strong>1986</strong><p>Recebeu o diploma de melhor demonstração técnica no encontro das artes marciais, realizado em Manaus, Brasil.</p>
                                     <strong>1991</strong><p>Ficou como Vice – presidente da comissão organizadora do primeiro campeonato mundial de Hapkido, em Seoul, Coréia do Sul.</p>
                                     <strong>1993</strong>
-                                    <p>                                       <ul>
+                                    <div>                                       <ul>
                                             <li>Fundou a Federação de Hapkido do estado de São Paulo, Ocupando o cargo de presidente por votação unânime.</li>
                                             <li>Ficou como Vice – presidente da comissão organizadora do 2 º campeonato mundial de Hapkido, em Seoul, Coréia.</li>
                                             <li>Ganhou a eleição para a presidência, da Associação Coreana de Taekwondo no Brasil.</li>
                                             <li>Ganhou a eleição para a presidência da Associação dos mestres coreanos no Brasil.</li>
                                         </ul>
-                                    </p>
+                                    </div>
                                     <strong>1994 - </strong><p>Recebeu o diploma de melhor demonstração técnica, no encontro das artes marciais, em Otawa, Canadá.</p>
                                     <strong>2001</strong><p>Fundou a Confederação Brasileira de Hapkido, ocupando a presidência por votação unânime.</p>
                                     <strong>2007</strong>
-                                    <p>                                       <ul>
+                                    <div>                                       <ul>
                                             <li>Ganhou a eleição para a presidência da Associação Coreana de Taekwondo no Brasil.</li>
                                             <li> Ganhou a eleição para a presidência da Associação dos mestres coreanos do Brasil.</li>
 
                                         </ul>
-                                    </p>
+                                    </div>
                                     <hr></hr>
                                     <strong>1983 à 2007</strong><p>Realizou da 1º à 32º Copa Grão mestre YUN SIK KIM de Taekwondo.</p>
                                     <strong>1993 à 2007</strong><p>Realizou do” 1º ao 14º Campeonato Paulista de Hapkido”. E do “1º ao 14 º Campeonato Brasileiro de Hapkido.</p>

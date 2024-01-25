@@ -1,3 +1,4 @@
+'use client'
 import '../styles/pages/page.scss'
 import HeaderGraduacao from '../sections/HeaderGraduacao'
 import QuemPodeTreinar from '../sections/QuemPodeTreinar'

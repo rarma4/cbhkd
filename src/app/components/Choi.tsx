@@ -37,12 +37,12 @@ export default function Choi() {
 
                     <div className="accordion" id="accordionMestreChoi">
                         <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 className="accordion-header" id="heading1">
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                     História YOUNG SOOL CHOI
                                 </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionMestreChoi">
+                            <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionMestreChoi">
                                 <div className="accordion-body">
                                     <p>Nascido em 1904 em “DAE GU ’, Coréia, o grão mestre Young Sool Choi, ficou órfão aos 9 anos de idade, quando conheceu o seu tutor, (um senhor eremita, provavelmente de descendência nobre.), o qual levou o mestre Choi para as montanhas da Coréia, para que ele pudesse aprender o Hapkido. O mestre Choi viveu cerca de uns 33 anos junto com seu mentor, como uma espécie de monge eremita. È importante ressaltar que o mestre Choi foi praticamente criado, nos tempos de ocupação japonesa.</p>
                                     <p>Após a desocupação japonesa e morte de seu mentor o mestre Choi, decide sair das montanhas e se instalou em uma província em “Degu”, Coréia do Sul, onde começou a ensinar o Hapkido . O mestre Choi não teve muitos alunos, pois além de se instalar longe de “Seoul”, capital da Coréia do Sul, onde tudo acontecia, ele deu aulas por pouco tempo e a maioria de seus alunos já treinavam outras formas artes marciais diferentes.</p>

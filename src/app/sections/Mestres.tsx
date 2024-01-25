@@ -5,6 +5,8 @@ import '../styles/sections/mestres.scss'
 import { marker } from '../utils/Fonts'
 import Kim from '../components/Kim';
 import Choi from '../components/Choi';
+import Jae from '../components/Jae';
+import MestresHkd from '../components/MestresHkd';
 
 export default function Mestres() {
 
@@ -34,10 +36,11 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
               <div className="tab-pane fade show active" id="graoMestres" role="tabpanel">
                 <Kim/>
                 <Choi/>
+                <Jae/>
               </div>
 
               <div className="tab-pane fade" id="mestres" role="tabpanel">
-                <p>A Confederação Brasileira de Hapkido vem por meio deste site, contar como chegou e como anda o Hapkido no Brasil, de uma forma direta e sem rodeios, para que não só os instrutores e alunos, mas também o público em geral, possa entender o que se passa dentro do cenário do Hapkido no Brasil.</p>
+                <MestresHkd/>
               </div>
 
               <div className="tab-pane fade" id="faixasPretas" role="tabpanel">
