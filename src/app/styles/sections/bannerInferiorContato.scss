@@ -1,0 +1,33 @@
+
+#bannerInferiorContato{
+    background:#000;
+    background-image: url("../../../../public/assets/img/bannerhkdmidle_.webp");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../../../public/assets/img/bannerhkdmidle_.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 90vh;
+    @media (max-width: 1024px) {
+        background-position: center center;
+        background-size: contain;
+        height: 30vh;
+    }
+
+    .home-title{
+        font-size: 50px;
+    }
+    .colcenter{
+        background-image: url("../../../../public/assets/img/hkdBanner1.webp");
+        background-size: cover;
+        // background-attachment: fixed;
+        background-position: center center;
+        height: 90vh;
+
+        @media (max-width: 1024px) {
+            background-size: contain;
+            background-position: center center;
+            height: 30vh;
+        }
+    }
+
+}

@@ -24,6 +24,12 @@ export default function Contato() {
 
                   Faça uma visita em nossa academia
                 </h5>
+                <h6 className="home-title mt-3 text-secondary-emphasis">
+                  Rua da graça, 89, 4° andar
+                </h6>
+                <h6 className="home-title mt-3 text-secondary-emphasis">
+                  Bom Retiro – centro de São Paulo
+                </h6>
               </div>
             </div>
 

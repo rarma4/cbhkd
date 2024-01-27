@@ -5,14 +5,14 @@ import QuemPodeTreinar from '../sections/QuemPodeTreinar'
 import Contato from '../sections/Contato'
 import Regras from '../sections/Regras'
 import Estudo from '../sections/Estudo'
-import BannerInferior from '../sections/BannerInferior'
+import BannerInferiorContato from '../sections/BannerInferiorContato'
 
 export default function Graduacao() {
   return (
     <>
       <HeaderContato/>
       <Contato/>
-      <BannerInferior/>
+      <BannerInferiorContato/>
     </>
   )
 }
