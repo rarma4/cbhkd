@@ -12,7 +12,7 @@ import FaixasPretas from '../components/FaixasPretas';
 export default function Mestres() {
 
   return (
-    <div className="container-fluid d-flex bg-body-tertiary justify-content-evenly" id="historia">
+    <div className="container-fluid d-flex bg-body-tertiary justify-content-evenly" id="mestres">
       <div className="container">
         <div className="row mt-5 mb-4">
           <h2 className={`text-center text-warning ${marker.className}`}>Grão Mestres do Hapkido</h2>
