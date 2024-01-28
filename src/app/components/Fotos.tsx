@@ -37,13 +37,13 @@ export default function Fotos() {
             <Image
               src={item.srcThumb}
               alt={item.altimg}
-              width={item.altura}
-              height={item.largura}
-              sizes="100vw"
-              style={{
-                width: '100%',
-                height: 'auto',
-              }}
+              width={item.largura}
+              height={item.altura}
+              // sizes="100vw"
+              // style={{
+              //   width: '100%',
+              //   height: 'auto',
+              // }}
             />
           </a>
  

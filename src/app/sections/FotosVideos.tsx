@@ -12,9 +12,8 @@ export default function FotosVideos() {
     <div className="container-fluid d-flex bg-body-tertiary justify-content-evenly" id="fotosvideos">
       <div className="container">
         <div className="row mt-5 mb-4">
-          {/* <h2 className={`text-center text-warning ${marker.className}`}>Grão Mestres do Hapkido</h2>
-          <h6 className={`text-center text-secondary `}>
-            e lista dos graduados da Confederação Brasileira de Hapkido</h6> */}
+          <h2 className={`text-center text-warning ${marker.className}`}>Galeria de</h2>
+          <h5 className={`text-center text-secondary `}>Fotos e vídeos</h5>
 
           <div className="col-12 col-lg-12 p-3 d-flex flex-column flex-nowrap">
 
