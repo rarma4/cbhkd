@@ -42,7 +42,9 @@ export default function Fotos() {
               // sizes="100vw"
               // style={{
               //   width: '100%',
-              //   height: 'auto',
+              //   maxWidth: '400px',
+              //   aspectRatio: '1/1',
+              //   objectFit: 'cover',
               // }}
             />
           </a>
