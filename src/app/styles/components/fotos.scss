@@ -15,6 +15,14 @@
 	padding:0.5em;
 	transition:0.7s; 
 }
+.box-foto{ 
+    width:30.5%; 
+    margin-right:2%; 
+    margin-bottom:2%; 
+}
+.box-foto:nth-of-type(4n+0) { 
+    margin-right:0; 
+}
 
 .box-foto:hover { background-color:#333333; }
 
@@ -27,3 +35,5 @@
     .box-foto:nth-of-type(4n+0) { margin-right:0; }
 
 } 
+
+
