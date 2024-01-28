@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import '../styles/components/galeriaItens.scss'
+import '../styles/components/fotos.scss'
 import { GaleriaFotos } from '../utils/Utils'
 import Image from 'next/image'
 import Link from "next/link"
@@ -23,6 +23,7 @@ export default function Fotos() {
   
   return (
     <>
+        <div className="box-galeria" >
       <LightGallery
         elementClassNames="custom-wrapper-class"
         // onBeforeSlide={onBeforeSlide}
@@ -30,16 +31,25 @@ export default function Fotos() {
         plugins={[lgThumbnail]}
       >
         {GaleriaFotos.map((item, index) => (
-          <a href={item.src} key={index}>
+
+          
+          <a className="box-foto" href={item.src} key={index} >
             <Image
               src={item.srcThumb}
               alt={item.altimg}
               width={item.altura}
               height={item.largura}
+              sizes="100vw"
+              style={{
+                width: '100%',
+                height: 'auto',
+              }}
             />
           </a>
+ 
         ))}
       </LightGallery>
+        </div>
     </>
   );
 }

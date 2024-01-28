@@ -128,13 +128,15 @@ export const GaleriaFotos = [
     "altimg": "",
     "altura": 250,
     "largura": 160,
-  },  {
+  }, 
+  {
     "src": "/assets/img/galery/a-3.jpg",
     "srcThumb": "/assets/img/galery/thumb/a-3.jpg",
     "altimg": "",
     "altura": 250,
     "largura": 160,
   },
+  
 
   // {"src": "/assets/img/galery/b-1.jpg"},
   // {"src": "/assets/img/galery/b-2.jpg"},
