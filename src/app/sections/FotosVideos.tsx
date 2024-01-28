@@ -28,7 +28,7 @@ export default function FotosVideos() {
 
             <div id="myTabContent" className="tab-content">
               <div className="tab-pane fade show active" id="fotos" role="tabpanel">
-                <Fotos/>
+                  <Fotos />
               </div>
 
               <div className="tab-pane fade" id="videos" role="tabpanel">
