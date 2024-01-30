@@ -26,7 +26,7 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
                 <a className="nav-link text-secondary-emphasis active" data-bs-toggle="tab" href="#graoMestres" aria-selected="true" role="tab">Grão Mestres</a>
               </li>
               <li className="nav-item bg-body-tertiary" role="presentation">
-                <a className="nav-link text-secondary-emphasis" data-bs-toggle="tab" href="#mestres" aria-selected="false" role="tab">Mestres</a>
+                <a className="nav-link text-secondary-emphasis" data-bs-toggle="tab" href="#mestresHkd" aria-selected="false" role="tab">Mestres</a>
               </li>
               <li className="nav-item bg-body-tertiary" role="presentation">
                 <a className="nav-link text-secondary-emphasis" data-bs-toggle="tab" href="#faixasPretas" aria-selected="false" role="tab">Faixas pretas</a>
@@ -40,7 +40,7 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
                 <Jae/>
               </div>
 
-              <div className="tab-pane fade" id="mestres" role="tabpanel">
+              <div className="tab-pane fade" id="mestresHkd" role="tabpanel">
                 <MestresHkd/>
               </div>
 
