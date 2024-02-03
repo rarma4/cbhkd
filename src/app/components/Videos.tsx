@@ -19,9 +19,9 @@ export default function Videos() {
     slidesToShow: 2,
     slidesToScroll: 2,
     initialSlide: 0,
-    arrows: false,
+    arrows: true,
     autoplay: true,
-    rows: 2,
+    rows: 1,
     slidesPerRow: 1,
 
     customPaging: function () {
