@@ -20,7 +20,7 @@ export const GaleriaItenS = [
     "altura": 380,
     "largura": 380,
     "txtbtn": "Assista",
-    "srcbtn": "/galeria#videos",
+    "srcbtn": "/galeria",
     "footer": "Demostrações, campeonatos, seminários e recordações"
   },
   {
