@@ -8,7 +8,7 @@ export const GaleriaItenS = [
     "altura": 380,
     "largura": 380,
     "txtbtn": "Veja",
-    "srcbtn": "#",
+    "srcbtn": "/galeria",
     "footer": "Demostrações, campeonatos, seminários e recordações"
   },
   {
@@ -20,7 +20,7 @@ export const GaleriaItenS = [
     "altura": 380,
     "largura": 380,
     "txtbtn": "Assista",
-    "srcbtn": "#",
+    "srcbtn": "/galeria#videos",
     "footer": "Demostrações, campeonatos, seminários e recordações"
   },
   {
@@ -32,7 +32,7 @@ export const GaleriaItenS = [
     "altura": 380,
     "largura": 380,
     "txtbtn": "Confira",
-    "srcbtn": "#",
+    "srcbtn": "/contato",
     "footer": "Entre em contato para fazer parte desta Família Marcial"
   },
 
@@ -112,6 +112,63 @@ export const SaDan = [
 
 export const ODan = [
   "ANTONIO JOSE RIBAS PAIVA","BYONG CHU KIM","SERGE PIERRE BAUBIC","HAILSON NAKADA HWANG","VILSON LEANDRO TADEU INACIO"
+]
+
+export const GaleriaVideos = [
+  {
+    "header": "I Encontro de Artes Marciais",
+    "idVideo":"7NVUvle4feA?si=1_snKrwdcKQyLqul",
+    "altura": 560,
+    "largura": 315,
+  },
+  {
+    "header": "Exame de faixa Preta Yasser Guillen",
+    "idVideo":"caLIOVz9aR0?si=pWpL2aNz_UefnVqb",
+    "altura": 560,
+    "largura": 315,
+  },
+  {
+    "header": "Exame de faixa Preta 3 DAN Rafael Marinho",
+    "idVideo":"S8NnVHcfqXw?si=hiC-AzjFzti6Hdq9",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "Academia Siberian Tiger - Osasco",
+    "idVideo":"6GMNk86FTBM",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "Academia Siberian Tiger - Osasco",
+    "idVideo":"6SWtf2uxNEI",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "Hapkido Bum Moo - Jung Lee",
+    "idVideo":"njZWeJe9xa4",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "Hapkido Bum Moo - Napots (quedas)",
+    "idVideo":"Lzv0MhH8AEA",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "Kiurugui terigui BUM MOO Hapkido",
+    "idVideo":"oMZarXoNPjM",
+    "altura": 560,
+    "largura": 315,
+  },  
+  {
+    "header": "HAPKIDO BUM MOO - Exame de faixa ",
+    "idVideo":"u1-2_VRg4i4?si=2Uj0WL7HVibbTwKl",
+    "altura": 560,
+    "largura": 315,
+  },  
 ]
 
 export const GaleriaFotos = [

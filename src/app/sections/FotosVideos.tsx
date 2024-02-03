@@ -4,6 +4,7 @@ import Image from 'next/image'
 import '../styles/sections/fotosvideos.scss'
 import { marker } from '../utils/Fonts'
 import Fotos from '../components/Fotos';
+import Videos from '../components/Videos';
 
 
 export default function FotosVideos() {
@@ -28,11 +29,20 @@ export default function FotosVideos() {
 
             <div id="myTabContent" className="tab-content">
               <div className="tab-pane fade show active" id="fotos" role="tabpanel">
-                  <Fotos />
+                <Fotos />
               </div>
 
               <div className="tab-pane fade" id="videos" role="tabpanel">
-                b
+                <Videos />
+                {/* <div>Mais Vídeos em : <a href="https://www.youtube.com/results?search_query=bummoohapkido" target='blank'>Youtube.com.br. Clique para ir ao youtube.</a>
+                </div> */}
+                <div className=" mt-5 alert alert-dismissible alert-warning">
+                  {/* <button type="button" className="btn-close" data-bs-dismiss="alert"></button> */}
+                  <h4 className="alert-heading">Mais Vídeos em :</h4>
+                  <p className="mb-0">Youtube.com.br. </p>
+                  <p><a href="https://www.youtube.com/results?search_query=bummoohapkido" target='blank' className="alert-link"> Clique para ir ao youtube.</a>.</p>
+
+                </div>
               </div>
 
             </div>
