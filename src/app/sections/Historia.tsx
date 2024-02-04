@@ -1,6 +1,5 @@
 'use client'
 import * as React from 'react';
-import Image from 'next/image'
 import '../styles/sections/historia.scss'
 import { marker } from '../utils/Fonts'
 

@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import '../styles/components/mestresItens.scss'
 import { MestresItenS } from '../utils/Utils'
 import Image from 'next/image'
-import Link from "next/link"
 
 export default function MestresItens() {
   var settings = {
@@ -85,7 +84,6 @@ export default function MestresItens() {
           </div>
         ))}
       </Slider>
-
     </>
   )
 }

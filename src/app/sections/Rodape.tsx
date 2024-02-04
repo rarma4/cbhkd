@@ -1,7 +1,6 @@
 import '../styles/sections/rodape.scss'
 import Image from 'next/image'
 import MenuItens from '../components/MenuItens'
-import { marker } from '../utils/Fonts'
 
 export default function Rodape() {
   return (
@@ -9,7 +8,6 @@ export default function Rodape() {
       <div className="container-fluid d-flex justify-content-evenly flex-column" id="rodape">
         <div className="container">
           <div className="row mt-4 mb-3">
-            {/* <h2 className={`text-center text-warning ${marker.className}`}>Experiência</h2> */}
             <div className="col-md-3 col-sm-6 p-3 text-lg-start text-center">
               <h4>Mapa do site</h4>
               <div>

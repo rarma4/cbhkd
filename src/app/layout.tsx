@@ -21,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${lato.className}`}>
-      {/* <body className="d-flex flex-column min-nh-100"> */}
         <Navigation />
         {children}
         <Rodape />

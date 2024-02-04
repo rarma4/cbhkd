@@ -2,7 +2,6 @@ import GaleriaItens from '../components/GaleriaItens'
 import '../styles/sections/galeria.scss'
 import { marker } from '../utils/Fonts'
 
-
 export default function Galeria() {
   return (
     <>

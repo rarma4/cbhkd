@@ -1,6 +1,4 @@
 import '../styles/sections/treine.scss'
-import Link from 'next/link'
-import Image from 'next/image'
 import { marker } from '../utils/Fonts'
 
 export default function Treine() {
@@ -19,11 +17,10 @@ export default function Treine() {
                 Rua da Graça, 89, 4 andar Bom Retiro – São Paulo.
               </p>
               <p className="home-title mt-3 text-white">
-
                 Hapkido e Taekwondo WTF
               </p>
             </div>
-            
+
           </div>
         </header>
       </div>

@@ -2,14 +2,9 @@
 import * as React from 'react';
 import '../styles/components/videos.scss'
 import { GaleriaVideos } from '../utils/Utils'
-import Image from 'next/image'
-import Link from "next/link"
-import LightGallery from 'lightgallery/react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
 
 export default function Videos() {
   var settings = {
@@ -79,44 +74,29 @@ export default function Videos() {
 
   return (
     <>
-     {/* <div className="row mt-5 mb-4"> */}
       <Slider  {...settings}>
 
-          {GaleriaVideos.map((item, index) => (
-                  <div className="col-md-4 col-sm-6 p-3 text-center" key={index}>
-                  <div className="card mb-3 bg-primary text-white">
-                    <div className="card-body">
-                      <h5 className="card-title text-white">{item.header}</h5>
-                    </div>
-                    <div className=" card-body w-100 d-flex justify-content-center" >
-                  {/* <iframe
-                  src={`https://www.youtube.com.br/embed/${item.idVideo}`}
-                  width={item.altura}
-                  height={item.largura}
-                  title={item.header}
-                  /> */}
-                  <iframe 
+        {GaleriaVideos.map((item, index) => (
+          <div className="col-md-4 col-sm-6 p-3 text-center" key={index}>
+            <div className="card mb-3 bg-primary text-white">
+              <div className="card-body">
+                <h5 className="card-title text-white">{item.header}</h5>
+              </div>
+              <div className=" card-body w-100 d-flex justify-content-center" >
+                <iframe
                   width={item.altura}
                   height={item.largura}
                   src={`https://www.youtube.com.br/embed/${item.idVideo}`}
                   title={item.header}
-                  >
-
-                  </iframe>
-                </div>
-
-                <div className="card-footer text-white">
-                  
-                </div>
+                >
+                </iframe>
+              </div>
+              <div className="card-footer text-white">
               </div>
             </div>
-
-
-          ))}
-
+          </div>
+        ))}
       </Slider>
-      
-    {/* </div> */}
     </>
   );
 }

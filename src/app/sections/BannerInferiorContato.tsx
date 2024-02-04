@@ -1,7 +1,4 @@
 import '../styles/sections/bannerInferiorContato.scss'
-import Link from 'next/link'
-import Image from 'next/image'
-import { marker } from '../utils/Fonts'
 
 export default function BannerInferiorContato() {
   return (

@@ -2,8 +2,6 @@
 import * as React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from 'next/image'
-import { skils } from '../utils/Utils'
 import '../styles/sections/estudo.scss'
 import { marker } from '../utils/Fonts'
 
@@ -16,9 +14,7 @@ export default function Estudo() {
           <h2 className={`text-center text-warning ${marker.className}`}>Estudo Complementar do Hapkido</h2>
           <h6 className={`text-center text-secondary `}>Este estudo tem a finalidade de ajudar os alunos a se familiarizar</h6>
           <h6 className={`text-center text-secondary `}>com as linguagens usadas no Dodjang e a origem do Hapkido.</h6>
-
           <div className="col-12 col-lg-12 p-3 d-flex flex-column flex-nowrap">
-
             <ul className="nav nav-tabs bg-body-tertiary" role="tablist">
               <li className="nav-item" role="presentation">
                 <a className="nav-link active" data-bs-toggle="tab" href="#hkd" aria-selected="true" role="tab">O que é o Hapkido?</a>
@@ -39,7 +35,6 @@ export default function Estudo() {
                 <a className="nav-link" data-bs-toggle="tab" href="#quedas" aria-selected="false" role="tab">Quedas</a>
               </li>
             </ul>
-
             <div id="myTabContent" className="tab-content">
               <div className="tab-pane fade show active" id="hkd" role="tabpanel">
                 <p>Hap Ki Do - HAP=União, KI=Força, Espírito, DO=Caminho; Caminho da União da Força e do Espírito, Arte Marcial Sul-Coreana.</p>
@@ -718,9 +713,7 @@ export default function Estudo() {
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div >

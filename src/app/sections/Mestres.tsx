@@ -1,6 +1,5 @@
 'use client'
 import * as React from 'react';
-import Image from 'next/image'
 import '../styles/sections/mestres.scss'
 import { marker } from '../utils/Fonts'
 import Kim from '../components/Kim';
@@ -46,7 +45,6 @@ e lista dos graduados da Confederação Brasileira de Hapkido</h6>
 
               <div className="tab-pane fade" id="faixasPretas" role="tabpanel">
                 <FaixasPretas/>
-                
               </div>
             </div>
 

@@ -1,10 +1,5 @@
 import '../styles/sections/footer.scss'
-import Link from 'next/link'
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faSquarePhone } from '@fortawesome/free-solid-svg-icons'
-// import {  } from '@fortawesome/free-regular-svg-icons'
-import { faFacebookSquare, faSquareInstagram, faSquareGithub, faLinkedin, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
   return (
@@ -18,7 +13,7 @@ export default function Footer() {
             <div className="col-xl-6 col-md-12 col-xs-1 d-flex justify-content-evenly">
               <p>
                 <small>
-                  Powered by 
+                  Powered by
                 </small>
                 <a className="p-2" href="https://www.rafart.com.br/" target="_blank" title="Raf'Art Developer and WebDesign">
                   <Image

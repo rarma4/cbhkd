@@ -1,8 +1,6 @@
 
 import Image from 'next/image'
 import '../styles/components/jae.scss'
-import Link from "next/link"
-import MenuItens from './MenuItens'
 import { marker } from '../utils/Fonts'
 
 export default function Jae() {
@@ -12,17 +10,6 @@ export default function Jae() {
                 <h3 className={`text-center text-danger ${marker.className}`}>Grão Mestre JI HAN JAE</h3>
                 <div className="col-12 col-sm-12 col-lg-3 p-3 text-center">
                     <div className=" w-100 d-flex justify-content-center" >
-                        {/* <Image
-                            src="/assets/img/jae1.webp"
-                            alt="Foto Mestre Ji Han Jae"
-                            width={220}
-                            height={341}
-                            sizes="100vw"
-                            style={{
-                                width: '100%',
-                                height: 'auto',
-                            }}
-                        /> */}
                         <Image
                             src="/assets/img/jae1.webp"
                             alt="Foto Mestre Ji Han Jae"
@@ -30,11 +17,8 @@ export default function Jae() {
                             height={487}
                         />
                     </div>
-
                 </div>
-
                 <div className="col-12 col-lg-9 p-3">
-
                     <div className="accordion" id="accordionMestreJae">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingUno">
@@ -50,13 +34,9 @@ export default function Jae() {
                                 </div>
                             </div>
                         </div>
-                        
-
                     </div>
                 </div>
-
             </div>
-
         </>
     )
 }

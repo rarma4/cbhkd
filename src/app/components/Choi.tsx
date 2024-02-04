@@ -1,8 +1,6 @@
 
 import Image from 'next/image'
 import '../styles/components/choi.scss'
-import Link from "next/link"
-import MenuItens from './MenuItens'
 import { marker } from '../utils/Fonts'
 
 export default function Choi() {
@@ -12,17 +10,6 @@ export default function Choi() {
                 <h3 className={`text-center text-danger ${marker.className}`}>Grão Mestre YOUNG SOOL CHOI</h3>
                 <div className="col-12 col-sm-12 col-lg-3 p-3 text-center">
                     <div className=" w-100 d-flex justify-content-center" >
-                        {/* <Image
-                            src="/assets/img/b-3.webp"
-                            alt="Foto mestre Choi"
-                            width={220}
-                            height={341}
-                            sizes="100vw"
-                            style={{
-                                width: '100%',
-                                height: 'auto',
-                            }}
-                        /> */}
                         <Image
                             src="/assets/img/Choi1.webp"
                             alt="Foto mestre Choi"
@@ -52,9 +39,7 @@ export default function Choi() {
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </>
     )
 }
