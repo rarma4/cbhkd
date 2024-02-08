@@ -9,8 +9,13 @@ import Footer from './sections/Footer'
 import Rodape from './sections/Rodape'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.cbhkd.com.br/'),
+  alternates: {
+    canonical: '/',
+  },
   title: `Confederação Brasileira de Hapkido`,
-  description: 'Pagina de Rafael Marinho',
+  description: 'Pagina da confederação Brasileira de Hapkido, arte marcial mundial de defesa pessoal',
+  robots: 'index, follow',
 }
 
 export default function RootLayout({

@@ -2,8 +2,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: `Sobre a CBHKD`,
-    description: 'Pagina de Rafael Marinho',
+    metadataBase: new URL('https://www.cbhkd.com.br/'),
+    alternates: {
+      canonical: '/sobre',
+    },
+    title: `Sobre a Confederação Brasileira de Hapkido`,
+    description: 'Pagina da confederação Brasileira de Hapkido, arte marcial mundial de defesa pessoal ',
+    robots: 'index, follow',
 }
 
 export default function SobreLayout({
