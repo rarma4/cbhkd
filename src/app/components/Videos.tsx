@@ -17,9 +17,21 @@ export default function Videos() {
     pagination: { clickable: true },
     grid: { rows: 1 },
     breakpoints: {
-      1024: { slidesPerView: 2 },
-      600: { slidesPerView: 1.04 },
-      480: { slidesPerView: 1.04 }
+      // when window width is >= 0px
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 16
+      },
+      // when window width is >= 1024px
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
     }
   };
 
@@ -28,7 +40,7 @@ export default function Videos() {
       <Swiper {...settings} modules={[Autoplay, Pagination, Grid]}>
         {GaleriaVideos.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="col-md-4 col-sm-6 p-3 text-center">
+            <div className="col-md-12 col-sm-6 p-3 text-center">
               <div className="card mb-3 bg-primary text-white">
                 <div className="card-body">
                   <h5 className="card-title text-white">{item.header}</h5>
