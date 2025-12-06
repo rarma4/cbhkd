@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import '../styles/components/navigation.scss'
 import OffNavigation from '../components/OffNavigation'
 import MenuItens from '../components/MenuItens'
@@ -9,15 +10,15 @@ export default function Navigation() {
     <>
       <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <Image
               src="/assets/img/logo-cbhkd.webp"
               alt="logo CBHKD"
               width={85}
               height={85}
             />
-          </a>
-          <a className={`navbar-brand logo-header ${marker.className}`} href="/">Hapkido</a>
+          </Link>
+          <Link className={`navbar-brand logo-header ${marker.className}`} href="/">Hapkido</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
             <span className="navbar-toggler-icon"></span>
           </button>
