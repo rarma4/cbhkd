@@ -1,36 +1,37 @@
 import { MetadataRoute } from 'next'
  
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseURL = 'https://www.cbhkd.com.br'
   return [
     {
-      url: 'https://www.cbhkd.com.br/',
+      url: `${baseURL}/`,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,
     },
     {
-        url: 'https://www.cbhkd.com.br/sobre',
+        url: `${baseURL}/sobre`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: 1,
+        priority: 0.9,
       },
       {
-        url: 'https://www.cbhkd.com.br/graduacao',
+        url: `${baseURL}/graduacao`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: 1,
+        priority: 0.8,
       },
       {
-        url: 'https://www.cbhkd.com.br/galeria',
+        url: `${baseURL}/galeria`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: 1,
+        priority: 0.7,
       },
       {
-        url: 'https://www.cbhkd.com.br/contato',
+        url: `${baseURL}/contato`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: 1,
+        priority: 0.6,
       },
   ]
 }
